@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "last_delivery",
+  "title": "The Last Delivery",
+  "brief": "A sealed parcel disappeared from the museum loading bay. Identify who moved it and where it went. Make exactly three links: suspect to badge record, suspect to signed instruction, destination to trolley trace.",
+  "strict_solution": true,
+  "success_text": "Case solved: Noor moved the parcel to the restoration room. Her badge, signed instruction and trolley trace agree.",
+  "required_links": [["noor", "badge"], ["noor", "instruction"], ["restoration", "trace"]],
+  "cards": [
+    {"id":"noor","kind":"Suspect","title":"Noor / Restorer","body":"She was preparing the restoration room for a late inspection.","position":[40,40],"image":"res://art/portrait.svg"},
+    {"id":"badge","kind":"Access record","title":"Loading bay / 18:42","body":"Noor's badge opened the loading bay. The courier departed at 18:20.","position":[450,40]},
+    {"id":"courier","kind":"Suspect","title":"Courier / Departed","body":"The exit camera shows the courier leaving empty-handed at 18:20.","position":[860,40]},
+    {"id":"instruction","kind":"Signed instruction","title":"Move sealed parcel","body":"Please move this parcel to restoration before inspection. Collected by Noor at 18:43.","position":[40,370]},
+    {"id":"restoration","kind":"Destination","title":"Restoration room","body":"This room lies at the end of the east service corridor.","position":[450,370]},
+    {"id":"trace","kind":"Trolley trace","title":"East service corridor","body":"Fresh trolley marks run from the loading bay to the restoration room. The parcel seal was found there.","position":[860,370]}
+  ]
+}

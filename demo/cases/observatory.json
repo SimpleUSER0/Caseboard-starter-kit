@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "id": "observatory",
+  "title": "The Missing Observatory Key",
+  "brief": "At 21:10, the dome key vanished. Mara says she stayed in the archive. Elias says he left at 20:55. Connect the suspect to the two clues that establish who borrowed it.",
+  "strict_solution": true,
+  "success_text": "Case solved: Mara borrowed the key. The camera contradicts her alibi, and her signed note explains why she took it.",
+  "required_links": [["mara", "camera"], ["mara", "note"]],
+  "cards": [
+    {"id":"mara","kind":"Suspect","title":"Mara / Curator","body":"She says she stayed in the archive after 21:00.","position":[40,40],"image":"res://art/portrait.svg"},
+    {"id":"camera","kind":"Camera log","title":"East corridor","body":"At 21:08, Mara entered the corridor beside the key desk. Elias left at 20:54.","position":[450,40]},
+    {"id":"elias","kind":"Suspect","title":"Elias / Technician","body":"He says he left the building at 20:55. He planned to return tomorrow.","position":[860,40]},
+    {"id":"receipt","kind":"Printer log","title":"Archive printer","body":"Mara sent a print job at 20:47. No later archive activity is recorded.","position":[40,370]},
+    {"id":"note","kind":"Signed note","title":"A borrowed key","body":"I need the dome tonight. I will return the key before morning. — Mara","position":[450,370],"image":"res://art/key.svg"},
+    {"id":"desk","kind":"Desk report","title":"Empty key hook","body":"The key was present at 21:00. At 21:10, its hook was empty.","position":[860,370]}
+  ]
+}

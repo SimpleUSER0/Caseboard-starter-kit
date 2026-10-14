@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="500" viewBox="0 0 630 500">
+<rect width="630" height="500" fill="#101b21"/>
+<g fill="#35484c" opacity=".5"><circle cx="35" cy="190" r="2"/><circle cx="595" cy="190" r="2"/><circle cx="35" cy="440" r="2"/><circle cx="595" cy="440" r="2"/></g>
+<text x="35" y="55" fill="#e9b96d" font-family="sans-serif" font-size="14" letter-spacing="3">GODOT 4 / EDITABLE STARTER KIT</text>
+<text x="32" y="113" fill="#f1e8d7" font-family="sans-serif" font-size="53" font-weight="bold">CASEBOARD</text>
+<text x="35" y="148" fill="#aebfbc" font-family="sans-serif" font-size="20">Connect clues. Build your own mystery.</text>
+<g stroke="#e9b96d" stroke-width="4" fill="none"><path d="M139 254L485 256L308 375L139 254"/></g>
+<g fill="#eadfc8"><rect x="40" y="195" width="180" height="118" rx="6"/><rect x="410" y="195" width="180" height="118" rx="6"/><rect x="225" y="330" width="180" height="110" rx="6"/></g>
+<g fill="#b88646"><rect x="40" y="195" width="180" height="5"/><rect x="410" y="195" width="180" height="5"/><rect x="225" y="330" width="180" height="5"/></g>
+<g font-family="sans-serif" fill="#775d39" font-size="11" letter-spacing="1"><text x="55" y="221">SUSPECT</text><text x="425" y="221">EVIDENCE</text><text x="240" y="355">CONNECTION</text></g>
+<g font-family="sans-serif" fill="#233238" font-size="22" font-weight="bold"><text x="55" y="253">Who?</text><text x="425" y="253">What?</text><text x="240" y="386">Why?</text></g>
+<g font-family="sans-serif" fill="#34454c" font-size="13"><text x="55" y="282">Editable clue cards</text><text x="425" y="282">Your text and images</text><text x="240" y="416">Author-defined deductions</text></g>
+<text x="35" y="477" fill="#aebfbc" font-family="sans-serif" font-size="15">2 sample cases  /  3 palettes  /  GDScript source</text>
+</svg>

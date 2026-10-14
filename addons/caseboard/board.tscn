@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://addons/caseboard/board.gd" id="1"]
+
+[node name="EvidenceBoard" type="Control"]
+custom_minimum_size=Vector2(1500, 1000)
+script=ExtResource("1")

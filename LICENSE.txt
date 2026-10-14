@@ -1,0 +1,11 @@
+Caseboard Starter Kit — asset license, version 1.0
+
+The seller grants the lawful purchaser or authorized recipient a non-exclusive license to use, modify and incorporate the included code, vector assets and fictional sample case material into any number of their own personal or commercial games and applications.
+
+Completed games/applications may be distributed with the kit embedded as a functional part of that product. You may share the source with collaborators working on your projects, provided they do not redistribute it or use it on unrelated projects without their own license. Attribution is optional.
+
+You may not sell, sublicense or redistribute the kit, its code or its assets as a standalone toolkit, template, library or competing asset collection, including modified versions. You may not present unchanged sample art or writing as exclusive original work created by you.
+
+This license does not grant trademark rights, rights in third-party assets you add, or rights in the Godot engine itself. Godot is not included. Follow Godot's license requirements when distributing games built with that engine.
+
+The material is provided as-is, without warranties of fitness, merchantability or uninterrupted operation, to the extent permitted by applicable law. The author/seller is not liable for losses arising from use to the extent permitted by law. Mandatory consumer rights are unaffected. No promise of lifetime support or future features is made.
